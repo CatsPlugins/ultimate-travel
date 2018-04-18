@@ -1,0 +1,1 @@
+<div class="ut-alert ut-alert-danger"><?php _e('Tour not found', 'ultimate-travel') ?></div>

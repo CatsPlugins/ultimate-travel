@@ -1,0 +1,67 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 05/01/2018 16:30
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-bus-side-view:before { content: "\f100"; }
+.flaticon-ocean-transportation:before { content: "\f101"; }
+.flaticon-delivery-truck-with-circular-clock:before { content: "\f102"; }
+.flaticon-planet-earth:before { content: "\f103"; }
+.flaticon-departures:before { content: "\f104"; }
+.flaticon-delivery-truck-with-packages-behind:before { content: "\f105"; }
+.flaticon-sedan-car-model:before { content: "\f106"; }
+.flaticon-restaurant:before { content: "\f107"; }
+.flaticon-travel-1:before { content: "\f108"; }
+.flaticon-car-compact:before { content: "\f109"; }
+.flaticon-airplane-around-earth:before { content: "\f10a"; }
+.flaticon-air-transport:before { content: "\f10b"; }
+.flaticon-black-plane:before { content: "\f10c"; }
+.flaticon-airplane:before { content: "\f10d"; }
+    
+    $font-Flaticon-bus-side-view: "\f100";
+    $font-Flaticon-ocean-transportation: "\f101";
+    $font-Flaticon-delivery-truck-with-circular-clock: "\f102";
+    $font-Flaticon-planet-earth: "\f103";
+    $font-Flaticon-departures: "\f104";
+    $font-Flaticon-delivery-truck-with-packages-behind: "\f105";
+    $font-Flaticon-sedan-car-model: "\f106";
+    $font-Flaticon-restaurant: "\f107";
+    $font-Flaticon-travel-1: "\f108";
+    $font-Flaticon-car-compact: "\f109";
+    $font-Flaticon-airplane-around-earth: "\f10a";
+    $font-Flaticon-air-transport: "\f10b";
+    $font-Flaticon-black-plane: "\f10c";
+    $font-Flaticon-airplane: "\f10d";

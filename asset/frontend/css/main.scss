@@ -1,0 +1,72 @@
+@import 'variables';
+@import 'modals';
+@import 'animate';
+@import 'owl.carousel.min';
+@import 'nouislider.min';
+@import 'pikaday';
+@import 'styles';
+@import 'ut-global';
+@import 'hotel';
+
+
+.ut-sidebar .ut-widget .ut-widget__heading {
+  font-size: 16px;
+}
+.noUi-horizontal {
+  height: 5px;
+}
+.noUi-horizontal .noUi-handle {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+}
+.noUi-handle:after, .noUi-handle:before {
+  content: normal;
+}
+.valuePreview {
+  font-size: 12px;
+}
+.valuePreview span {
+  margin-top: 10px;
+}
+.ut-checkbox-group {
+  font-size: 14px;
+}
+.ut-filter__list .ut-filter__list {
+  padding-left: 15px;
+  overflow: hidden;
+}
+.ut-checkbox-group span::before, .ut-checkbox-group strong::before {
+  top: 3px;
+}
+label.ut-checkbox-group span:after {
+  top: 0px;
+}
+#ut-filter-rating-slider.noUi-vertical{
+  width: 2px;
+  height: 145px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+}
+.noUi-connect {
+  background-color: #000;
+}
+#ut-filter-rating-slider.noUi-vertical .noUi-connect {
+  width: 2px;
+}
+.ut-filter--rating-wrap .noUi-vertical .noUi-tooltip {
+  font-size: 13px;
+  line-height: 15px;
+}
+.ut-filter--rating-wrap .ut-filter__list {
+  font-size: 16px;
+  padding-left: 15px;
+}
+.ut-filter--rating-wrap ul li {
+  padding: 4px 0 4px;
+  margin-bottom: 3px;
+}
+
+.timestamp-wrap > label {
+  display: inline-block;
+}

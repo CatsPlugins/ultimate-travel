@@ -1,0 +1,1 @@
+<div class="ut-alert ut-alert-danger"><?php _e('Hotel not found') ?></div>

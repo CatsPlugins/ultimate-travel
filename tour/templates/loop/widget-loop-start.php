@@ -1,0 +1,1 @@
+<div class="uttTourShortcode uttTourList uttGridLayout layout<?php echo (isset($optionsLayout['columns']) ? $optionsLayout['columns'] : 1) ?>Col">
